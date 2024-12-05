@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    color: #a11414;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background: #6b4f4f;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #49e41a;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #000000;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background: #6b4f4f;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* Highlight active link */
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* About section image */
+#about img {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* About section text */
+#about p {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
